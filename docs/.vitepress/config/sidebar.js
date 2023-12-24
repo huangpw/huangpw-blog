@@ -37,4 +37,18 @@ module.exports = {
       items: [{ text: "推荐", link: "/frontend/vue/" }],
     },
   ],
+
+  // Git
+  "service/git/": [
+    {
+        text: "Git",
+        collapsed: false,
+        items: [{ text: '推荐', link: "/service/git/" }]
+    },
+    {
+        text: "笔记",
+        collapsed: false,
+        items: [{ text: '基础', link: "/" }, { text: '实战', link: "/aa" }]
+    }
+  ]   
 };

@@ -1,10 +1,10 @@
 const nav = require("./config/nav");
 const sidebar = require("./config/sidebar");
 const footer = require("./config/footer");
+const socialLinks = require("./config/socialLinks");
 
-console.log(process.env.NODE_ENV, "process.env.NODE_ENV");
 export default {
-  base: process.env.NODE_ENV === "production" ? "/nav-booklet/" : "/",
+  base: process.env.NODE_ENV === "production" ? "/huangpw-blog/" : "/",
   title: "hpwのblog",
   description: "书山有路勤为径，学海无涯苦作舟。",
   lang: "zh-CN",
@@ -13,5 +13,6 @@ export default {
     nav,
     sidebar,
     footer,
+    socialLinks,
   },
 };
